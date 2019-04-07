@@ -1,0 +1,28 @@
+/**app.wxss**/
+.container {
+
+}
+view{
+  box-sizing: border-box;
+}
+
+image,text{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.db{
+  display: block;
+}
+.f28{
+  font-size: 28rpx;
+}
+.f24{
+  font-size: 28rpx;
+}
+.f32{
+  font-size: 32rpx;
+}
+.f50{
+  font-size: 50rpx;
+}

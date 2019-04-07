@@ -1,0 +1,70 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="banner-wrap">
+    <image class="banner" src="../../assets/imgs/index/bg.png"></image>
+    <view class="bannerTxt-wp">
+      <view class="banner-txt">
+        <image class="banner-icon" src="../../assets/imgs/index/EYEGOOD.png"></image>
+        <text>武汉艾格眼科医院</text>
+      </view>
+      <view class="banner-txt2">
+        - WUHAN EYEGOOD OPHTHALMIC HOSPITAL -
+      </view>
+    </view>
+  </view>
+  <view class="position-wrap cont-ps">
+    <view class="left f28">
+      <view class="top-t">
+        地址：武汉市江岸区发展大道403号
+      </view>
+      <view class=" bom-t">
+        地铁6/8号线直达
+      </view>
+    </view>
+    <view class="line"></view>
+    <view class="right">
+      <image src="../../assets/imgs/index/position.png"></image>
+      <view>导航</view>
+    </view>
+  </view>
+  <view class="list-wrap cont-ps">
+    <view>
+      <image src="../../assets/imgs/index/icon1.png"></image>
+      <view class="text">医院简介</view>
+    </view>
+    <view>
+      <image src="../../assets/imgs/index/icon2.png"></image>
+      <view class="text">看诊流程</view>
+    </view>
+    <view>
+      <image src="../../assets/imgs/index/icon3.png"></image>
+      <view class="text">诊疗科室</view>
+    </view>
+    <view>
+      <image src="../../assets/imgs/index/icon4.png"></image>
+      <view class="text">专家团队</view>
+    </view>
+    <view>
+      <image src="../../assets/imgs/index/icon5.png"></image>
+      <view class="text">优惠活动</view>
+    </view>
+    <view>
+      <image src="../../assets/imgs/index/icon6.png"></image>
+      <view class="text">关爱眼睛</view>
+    </view>
+  </view>
+  <button class="btn-wrap" bintap="clickYy">
+    <image src="../../assets/imgs/index/gh.png"></image>
+    <text>预约挂号</text>
+  </button>
+
+
+</view>
+<movable-area class="movable">
+  <movable-view  direction="vertical" y="1050rpx" class="mov-view">
+    <button class="user-center">
+      <image src="../../assets/imgs/index/user-default.png"></image>
+    </button>
+  </movable-view>
+</movable-area>

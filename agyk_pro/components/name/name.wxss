@@ -1,0 +1,32 @@
+/* components/name.wxss */
+/*banner部分*/
+.banner{
+    height: 161rpx;
+    width: 750rpx;
+}
+.banner-wrap{
+    position: relative;
+}
+.bannerTxt-wp{
+    position: absolute;
+    bottom: 28rpx;
+    width: 100%;
+}
+.banner-icon{
+    width: 42rpx;
+    height: 56rpx;
+    margin-right: 10rpx;
+}
+.banner-txt{
+    text-align: center;
+}
+.banner-txt text{
+    font-size: 62rpx;
+    letter-spacing: -1rpx;
+    color: #ffffff;
+}
+.banner-txt2{
+    font-size: 19rpx;
+    color: #ffffff;
+    text-align: center;
+}

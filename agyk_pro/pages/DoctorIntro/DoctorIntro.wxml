@@ -1,0 +1,28 @@
+<!--pages/DoctorIntro/DoctorIntro.wxml-->
+<view class="doctorIntro">
+
+  <view class="left">
+    <view class="l-tab {{tabIndex==index?'active':''}}" bindtap="tabClick" wx:key="{{index}}"
+          wx:for="{{tabs}}"
+          data-id="{{item.id}}"
+          data-index="{{index}}">{{item
+      .name}}</view>
+  </view>
+  <view class="content">
+    <view class="cont-tab" bindtap="contClick" wx:for="{{conts}}" data-id="{{item.id}}"
+          wx:key="{{index}}">
+      <view class="zx">咨询专家</view>
+      <image src="{{item.image}}"></image>
+      <view class="cont-c">
+        <view class="name">
+          {{item.name}}
+        </view>
+        <view class="rz">{{item.rz}}</view>
+        <view class="xq">
+          {{item.xq}}
+          <text class="text">详情</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,32 @@
+/* list/list.wxss */
+.list{
+    padding: 0 20rpx;
+}
+.list-wrap:first-child{
+    border-top: none;
+}
+.list-wrap{
+    display: flex;
+    border-top: 1rpx solid #f0f0f0;
+    padding: 15rpx 0 30rpx 0;
+}
+.list-wrap image{
+   min-width: 169rpx;
+   max-width: 169rpx;
+    height: 131rpx;
+    border-radius: 8rpx;
+    margin-right: 19rpx;
+}
+.list-cont{
+    display: inline-block;
+    vertical-align: middle;
+}
+.list-cont .tit{
+    font-size: 30rpx;
+    color: #555555;
+}
+.list-cont .txt{
+    font-size: 24rpx;
+    color: #888888;
+    margin-top: 26rpx;
+}

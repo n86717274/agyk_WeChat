@@ -1,0 +1,44 @@
+/* pages/detail/detail.wxss */
+.detail{
+    padding: 30rpx;
+}
+.detail-img{
+    width: 695rpx;
+    height: 472rpx;
+    display: block;
+    border-radius: 5rpx;
+}
+.intro{
+    min-width: 500rpx;
+    display: inline-block;
+    max-width: 100%;
+    height: 80rpx;
+    background-color: #4ba8f7;
+    border-radius: 10rpx;
+    line-height: 80rpx;
+    text-align: center;
+    font-size: 50rpx;
+    color: #ffffff;
+    letter-spacing: -1rpx;
+    position: absolute;
+    top: 444rpx;
+    margin-left: -1rpx;
+}
+.tit{
+    height: 31rpx;
+    font-size: 32rpx;
+    letter-spacing: -0.6rpx;
+    color: #222222;
+    margin-top: 52rpx;
+    font-weight: 600;
+}
+.content{
+    margin-top: 38rpx;
+    font-size: 24rpx;
+    line-height: 48rpx;
+    color: #444444;
+    text-indent: 2em;
+}
+.content view{
+    text-indent: 2em;
+}

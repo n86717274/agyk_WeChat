@@ -1,0 +1,13 @@
+<!--components/name.wxml-->
+<view class="banner-wrap">
+  <image class="banner" src="../../assets/imgs/nameBg.png"></image>
+  <view class="bannerTxt-wp">
+    <view class="banner-txt">
+      <image class="banner-icon" src="../../assets/imgs/index/EYEGOOD.png"></image>
+      <text>武汉艾格眼科医院</text>
+    </view>
+    <view class="banner-txt2">
+      - WUHAN EYEGOOD OPHTHALMIC HOSPITAL -
+    </view>
+  </view>
+</view>

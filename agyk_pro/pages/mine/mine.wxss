@@ -1,0 +1,89 @@
+/* pages/mine/mine.wxss */
+.header{
+    width: 750rpx;
+    height: 260rpx;
+    position: relative;
+}
+.cont{
+    width: 750rpx;
+    height: 260rpx;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    margin-left: 58rpx;
+    align-items: center;
+}
+.head{
+    width: 126rpx;
+    height: 126rpx;
+    background-color: #ffffff;
+    border: solid 3rpx #ffffff;
+    border-radius: 50%;
+}
+
+.bg{
+    width: 750rpx;
+    height: 260rpx;
+}
+.name{
+    font-size: 50rpx;
+    letter-spacing: -2.4rpx;
+    color: #ffffff;
+    margin-left: 12rpx;
+    margin-right: 20rpx;
+}
+.self{
+    width: 203rpx;
+    height: 44rpx;
+    border-radius: 4rpx;
+    border: solid 2rpx #9cf7ff;
+    line-height: 44rpx;
+    text-align: center;
+    font-size: 32rpx;
+    letter-spacing: -0.6rpx;
+    color: #ffffff;
+}
+.logout{
+    width: 750rpx;
+    height: 117rpx;
+    background-color: #ededed;
+    border-radius: 4rpx;
+    position: fixed;
+    bottom: 0;
+    font-size: 42rpx;
+    line-height: 117rpx;
+    letter-spacing: -0.8rpx;
+    text-align: center;
+    color: #888888;
+}
+.sanjiao{
+    width: 17rpx;
+    height: 30rpx;
+}
+.item{
+    border-bottom: 1rpx solid #ECECEC;
+    width: 750rpx;
+    height: 117rpx;
+    padding-left: 25rpx;
+    padding-right: 60rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item-l{
+    display: flex;
+    align-items: center;
+}
+.item-icon{
+    width: 48rpx;
+    height: 48rpx;
+    border-radius: 4rpx;
+}
+.item-txt{
+    font-size: 36rpx;
+    line-height: 42rpx;
+    letter-spacing: -0.7rpx;
+    color: #222222;
+    margin-left: 21rpx;
+}

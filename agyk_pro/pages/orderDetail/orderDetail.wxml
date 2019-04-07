@@ -1,0 +1,83 @@
+<!--pages/orderDetail/orderDetail.wxml-->
+<view class="orderDetail">
+
+  <name></name>
+  <view class="content">
+    <view class="field">
+      <view class="label">预约科室</view>
+      <input class="inp" type="text" />
+    </view>
+    <view class="field">
+      <view class="label">预约专家</view>
+      <input class="inp" type="text" />
+    </view>
+    <view class="field">
+      <view class="label">预约日期</view>
+      <label class="inp dfm">
+        <picker
+          style="display: block;width: 100%"
+          mode="date"
+          value="{{date}}"
+          start="2019-03-06"
+          end="2019-09-01"
+          bindchange="bindDateChange"
+        >
+          <view class="picker">
+            {{date}}
+          </view>
+        </picker>
+      </label>
+    </view>
+    <view class="field">
+      <view class="label">预约时段</view>
+      <label class="inp dfm">
+        <picker style="display: block;width: 100%" bindchange="bindPickerChange" value="{{index}}" range="{{array}}"
+                 range-key="name">
+          <view class="picker">
+            {{array[index].name}}
+          </view>
+        </picker>
+      </label>
+    </view>
+    <view class="field">
+      <view class="label">患者姓名</view>
+      <input class="inp" type="text" placeholder="请输入姓名"/>
+    </view>
+    <view class="field">
+      <view class="label">性别</view>
+      <label class="inp dfm">
+        <picker style="display: block;width: 100%" bindchange="bindPickerSexy"
+                value="{{indexSexy}}" range="{{sexy}}"
+                range-key="name">
+          <view class="picker">
+            {{sexy[indexSexy].name}}
+          </view>
+        </picker>
+      </label>
+    </view>
+    <view class="field">
+      <view class="label">年龄</view>
+      <input class="inp" type="text" placeholder="请输入年龄"/>
+    </view>
+    <view class="field">
+      <view class="label">联系电话</view>
+      <input class="inp" type="text" placeholder="请输入联系电话"/>
+    </view>
+  </view>
+  <view class="btn" bindtap="submit">
+    提交预约
+  </view>
+  <view class="mark" wx:if="{{dialog}}" bindtap="markClick"></view>
+  <view class="dialog" wx:if="{{dialog}}">
+    <view class="dialog-top">
+      <image class="dialog-bg" src="../../assets/imgs/orderDetail/dialog.png"></image>
+      <image class="dialog-succ"  src="../../assets/imgs/orderDetail/succ.png"></image>
+    </view>
+    <view class="dialog-txt">
+      预约成功
+    </view>
+    <view class="dialog-btn" bindtap="back">
+      返回
+    </view>
+  </view>
+</view>

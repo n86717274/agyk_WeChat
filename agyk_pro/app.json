@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/list/list",
+    "pages/detail/detail",
+    "pages/hospitalPage/hospitalPage",
+    "pages/specialOffer/specialOffer",
+    "pages/specialOfferDetail/specialOfferDetail",
+    "pages/orderDetail/orderDetail",
+    "pages/DoctorIntro/DoctorIntro",
+    "pages/index/index",
+    "pages/register/register",
+    "pages/doctor/doctor",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "武汉艾格眼科医院",
+    "navigationBarTextStyle": "black"
+  }
+}

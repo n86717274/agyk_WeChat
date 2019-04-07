@@ -1,0 +1,75 @@
+<!--pages/doctor/doctor.wxml-->
+<view class="doctor">
+
+<view class="top">
+  <view class="self">
+    <image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3529857188,3242176299&fm=26&gp=0.jpg"></image>
+    <view class="gz">+关注</view>
+  </view>
+  <view class="top-r">
+    <view>
+      <text class="name">尹禾</text>
+      <text class="rz">副主任医师</text>
+    </view>
+    <view class="js">
+      三甲医院从事眼科临床工作20余年，是国内首批持有激光屈光手术上岗证的医师，国内最早开展准分子激光屈光手术的专家之一，被录入瑞士STAAR全球ICL手术医师认证专家库。在眼屈光手术方面积累了丰富的临床经验，曾帮助上万例近视患者恢复清晰视力。
+    </view>
+  </view>
+</view>
+
+  <view class="btn-wrap">
+    <image src="../../assets/imgs/index/gh.png"></image>
+    <text>预约挂号</text>
+  </view>
+  <view class="panel">
+    <view class="panel-1">
+      <image class="star" src="../../assets/imgs/star.png"></image>
+      <view class="panel-txt">
+        武汉艾格眼科医院屈光手术科主任
+      </view>
+    </view>
+    <view class="panel-1">
+      <image class="star" src="../../assets/imgs/star.png"></image>
+      <view class="panel-txt">
+        瑞士STAAR全球ICL手术医师认证专家
+      </view>
+    </view>
+    <view class="panel-1">
+      <image class="star" src="../../assets/imgs/star.png"></image>
+      <view class="panel-txt">
+        湖北省激光医学会委员
+      </view>
+    </view>
+    <view class="panel-1">
+      <image class="star" src="../../assets/imgs/star.png"></image>
+      <view class="panel-txt">
+        三甲医院从事眼科临床研究工作20余年
+      </view>
+    </view>
+    <view class="panel-1">
+      <image class="star" src="../../assets/imgs/star.png"></image>
+      <view class="panel-txt">
+        全国最早开展准分子激光屈光手术的专家之一
+      </view>
+    </view>
+    <view class="panel-1">
+      <image class="star" src="../../assets/imgs/star.png"></image>
+      <view class="panel-txt">
+        国内首批取得准分子激光屈光手术上岗证的医师
+      </view>
+    </view>
+    <view class="panel-1">
+      <image class="star" src="../../assets/imgs/star.png"></image>
+      <view class="panel-txt">
+        发表眼科学术论文10余篇，获军队医疗成果三等奖2项
+      </view>
+    </view>
+
+  </view>
+  <view class="panel panel-textSty">
+    从事眼耳鼻咽喉科专业，飞熟悉多种飞秒激光和准分子激光设备，尤其擅长飞秒激光LASIK、准分子激光LASIK、SBK、EPI-LASIK等多种角膜屈光手术以及ICL眼内屈光手术，对于各种个性化手术方案的设计和各种手术并发症的处理有着丰富的临床经验。
+  </view>
+  <view class="panel panel-textSty">
+    参与多项临床研究，发表学术论文十余篇，获军队医疗成果三等奖二项。
+  </view>
+</view>

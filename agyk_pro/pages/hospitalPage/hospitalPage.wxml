@@ -1,0 +1,16 @@
+<!--pages/hospitalPage/hospitalPage.wxml-->
+<view class="detail">
+  <image class="detail-img"
+         src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551880417230&di=9ec7933372afecbee9fc802d74ec6081&imgtype=0&src=http%3A%2F%2Fimg.pconline.com.cn%2Fimages%2Fupload%2Fupc%2Ftx%2Fphotoblog%2F1606%2F22%2Fc12%2F23207416_1466606519150_mthumb.jpg"></image>
+  <view class="hos-wrap">
+    <view class="intro">
+      武汉艾格眼科医院简介
+    </view>
+    <view class="content">
+      <view>由湖北省激光医学会屈光组委员、瑞士STAAR全球ICL手术医师认证专家尹禾主任为学科组长，拥有一支年富力强、临床经验丰富的高素质屈光手术专家团队。</view>
+      <view>率先在湖北地区开展准分子激光、飞秒激光矫治近视、ICL晶体植入术治疗近视；并在国内较早开展个性化切削手术，真正做到手术方案“量眼定制”。</view>
+      <view>全省率先引进全球准分子激光领导品牌美国威视VISX STAR S4 IR，率先引进美国Intralase飞秒激光、德国鹰视飞秒激光等高端屈光手术设备。</view>
+      <view>引进全球先进的角膜屈光手术设备--德国蔡司新一代VisuMax全飞秒激光系统，将我省屈光手术带入“无刀无瓣”新时代。</view>
+    </view>
+  </view>
+</view>

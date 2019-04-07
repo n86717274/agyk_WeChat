@@ -1,0 +1,94 @@
+/* pages/login/login.wxss */
+/*banner部分*/
+.banner{
+    height: 393rpx;
+    width: 750rpx;
+}
+.banner-wrap{
+    position: relative;
+}
+.bannerTxt-wp{
+    position: absolute;
+    bottom: 107rpx;
+    width: 100%;
+}
+.banner-icon{
+    width: 42rpx;
+    height: 56rpx;
+    margin-right: 10rpx;
+}
+.banner-txt{
+    text-align: center;
+}
+.banner-txt text{
+    font-size: 68rpx;
+    letter-spacing: -1rpx;
+    color: #ffffff;
+}
+.banner-txt2{
+    font-size: 22rpx;
+    color: #ffffff;
+    text-align: center;
+}
+/*登陆面板*/
+.login-wrap{
+    width: 670rpx;
+    height: 490rpx;
+    margin: 0 40rpx;
+    border-radius: 10px;
+    border: solid 1px #ffffff;
+    box-shadow: 0 0 13rpx rgba(22, 176, 189,.3);
+    margin-top: -20rpx;
+    position: relative;
+    z-index: 2;
+    background-color: white;
+    padding: 0 44rpx;
+}
+.input-wrap{
+    border-bottom: 1rpx solid #09c9da;
+    padding-bottom: 12rpx;
+    display: flex;
+    margin-top: 78rpx;
+}
+.input-wrap image{
+    width: 40rpx;
+    height: 46rpx;
+    margin-right: 36rpx;
+}
+.input-wrap input{
+    display: inline-block;
+    vertical-align: middle;
+    flex: 1 1 auto;
+    font-size: 32rpx;
+}
+.login-wrap .forget{
+    float: right;
+    font-size: 24rpx;
+    color: #888888;
+    margin-top: 20rpx;
+}
+.login-btn{
+    width: 460rpx;
+    height: 102rpx;
+    background-image: linear-gradient(94deg, #04c6d5 0%, #1ddbeb 100%);
+    border-radius: 51rpx;
+    border: solid 1rpx #ffffff;
+    line-height: 102rpx;
+    text-align: center;
+    font-size: 50rpx;
+    color: #ffffff;
+    position: absolute;
+    bottom: -51rpx;
+    left: 50%;
+    margin-left: -230rpx;
+}
+.reg_view{
+    margin-top: 85rpx;
+    text-align: center;
+    font-size: 30rpx;
+    color: #888888;
+}
+.reg_view .line{
+    margin: 0 40rpx;
+    color: #c4c4c4;
+}

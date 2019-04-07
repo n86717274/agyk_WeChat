@@ -1,0 +1,89 @@
+/* pages/DoctorIntro/DoctorIntro.wxss */
+.doctorIntro{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+}
+.content{
+    flex: 1 1 auto;
+    padding: 20rpx;
+    width: 550rpx;
+    overflow: auto;
+}
+.left{
+    overflow: auto;
+}
+.cont-tab:first-child{
+    border-top: none;
+}
+.cont-tab{
+    position: relative;
+    padding: 12rpx 0;
+    border-top: 1rpx solid #cfd5d8;
+}
+.cont-tab image{
+    border-radius: 20rpx;
+    border: solid 2rpx #e4f2f3;
+    margin-right: 23rpx;
+    width: 142rpx;
+    height: 197rpx;
+}
+.name{
+    font-size: 32rpx;
+    line-height: 30rpx;
+    color: #00ccdd;
+    font-weight: 600;
+}
+.cont-c{
+    display: inline-block;
+    width: 335rpx;
+    vertical-align: middle;
+}
+.rz{
+    font-size: 24rpx;
+    line-height: 30rpx;
+    color: #111111;
+    margin: 16rpx 0;
+}
+.xq{
+    font-size: 24rpx;
+    line-height: 30rpx;
+    color: #444444;
+}
+.text{
+    color: #222222;
+    font-weight: 600;
+    vertical-align: top;
+}
+.zx{
+    position: absolute;
+    right: 0;
+    top: 12rpx;
+    font-size: 24rpx;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40rpx;
+    width: 129rpx;
+    height: 40rpx;
+    background-color: #1cdaea;
+    border-radius: 19.5rpx;
+}
+.l-tab{
+    width: 200rpx;
+    height: 112rpx;
+    background-color: #f7f7f7;
+    line-height: 112rpx;
+    text-align: center;
+    font-size: 30rpx;
+    letter-spacing: -0.6rpx;
+    color: #555555;
+    border-top: 1rpx solid #d3d3d3;
+}
+.l-tab:first-child{
+    border-top: none;
+}
+.l-tab.active{
+    border-left: 8rpx solid #1cdaea;
+    background-color: #fff;
+}

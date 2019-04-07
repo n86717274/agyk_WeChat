@@ -1,0 +1,12 @@
+<!--pages/specialOffer/specialOffer.wxml-->
+<view class="list">
+
+  <view class="list-wrap" wx:for="{{listData}}" data-id="{{item.id}}" bindtap="clickOne">
+    <image src="{{item.img}}"></image>
+    <view class="list-cont">
+      <view class="tit">{{item.tit}}</view>
+      <view class="txt">{{item.txt}}</view>
+    </view>
+  </view>
+
+</view>

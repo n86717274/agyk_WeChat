@@ -1,0 +1,36 @@
+<!--pages/login/login.wxml-->
+<view class="login container">
+  <view class="banner-wrap">
+    <image class="banner" src="../../assets/imgs/login/bg.png"></image>
+    <view class="bannerTxt-wp">
+      <view class="banner-txt">
+        <image class="banner-icon" src="../../assets/imgs/index/EYEGOOD.png"></image>
+        <text>武汉艾格眼科医院</text>
+      </view>
+      <view class="banner-txt2">
+        - WUHAN EYEGOOD OPHTHALMIC HOSPITAL -
+      </view>
+    </view>
+  </view>
+  <view class="login-wrap">
+    <view class="input-wrap">
+      <image src="../../assets/imgs/login/user.png"></image>
+      <input type="text" placeholder-style="color:#a9a9a9;font-size:32rpx;" placeholder="输入您的用户名/手机号"/>
+    </view>
+    <view class="input-wrap">
+      <image src="../../assets/imgs/login/pwd.png"></image>
+      <input type="text" placeholder-style="color:#a9a9a9;font-size:32rpx;" placeholder="输入您的密码"/>
+    </view>
+    <view>
+      <text class="forget">忘记密码?</text>
+    </view>
+    <view class="login-btn">
+      登 陆
+    </view>
+  </view>
+  <view class="reg_view">
+    <text>账号注册</text>
+    <text class="line">|</text>
+    <text>浏览用户</text>
+  </view>
+</view>

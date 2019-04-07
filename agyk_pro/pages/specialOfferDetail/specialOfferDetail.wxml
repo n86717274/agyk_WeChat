@@ -1,0 +1,37 @@
+<!--pages/specialOfferDetail/specialOfferDetail.wxml-->
+<view class="specialOfferDetail">
+  <name></name>
+  <view class="content">
+    <view class="tit">
+      三月春光季，摘镜正当时，近视手术优惠升级
+    </view>
+    <view class="txt indent2">
+      新春的愉悦未散，三月的娇媚已来，在如此惬意的日子里，约上三五好友去旅行，将天下美景尽收眼底，无疑再合适不过了。可厚重的眼镜在前，感觉怎么玩都不尽兴。先摘镜，再旅游，睛彩蜕变才能乐享自由，近视党们赶紧行动起来吧。三月春光季，摘镜正当时，艾格眼科近视手术优惠升级!
+    </view>
+    <image class="insert-img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551880417229&di=1471f0200036876a64c28fbe1b478e3d&imgtype=0&src=http%3A%2F%2Ftc.sinaimg.cn%2Fmaxwidth.2048%2Ftc.service.weibo.com%2Fp%2Fmmbiz_qpic_cn%2F4007a7810370886c0062839ca0a755ee.jpg"></image>
+    <view class="txt">
+      3月1日至3月31日，凡网络预约近视手术，来院即享多重福利，具体如下：
+    </view>
+
+    <view class="txt">
+      ●ICL类最高优惠6000元，全飞类最高优惠8000元，半飞类最高优惠7800元
+    </view>
+
+    <view class="txt">
+      ●术后送价值299元的偏光镜一副
+      【外地患者凭交通发票，可享受报销来回路费(最高200元)，提供免费住宿一晚】
+    </view>
+    <view class="txt">备注:</view>
+    <view class="txt">
+      ◎本活动仅限网络预约，四院同享
+    </view>
+    <view class="txt">
+      ◎以上优惠不与院内其他优惠同享
+    </view>
+    <view class="txt">
+    预约方式：1)点击在线预约；2)免费致电400-114-8800"
+    </view>
+
+  </view>
+
+</view>

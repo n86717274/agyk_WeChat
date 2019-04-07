@@ -1,0 +1,160 @@
+/**index.wxss**/
+.movable{
+  width: 10rpx;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 20;
+}
+.mov-view{
+  width: 115rpx;
+  height: 78rpx;
+  position: absolute;
+  left: -115rpx;
+  bottom: 73rpx;
+}
+.cont-ps{
+  margin-left: 52rpx;
+  width: 653rpx;
+}
+/*banner部分*/
+.banner{
+  height: 422rpx;
+  width: 750rpx;
+}
+.banner-wrap{
+  position: relative;
+}
+.bannerTxt-wp{
+  position: absolute;
+  bottom: 100rpx;
+  width: 100%;
+}
+.banner-icon{
+  width: 42rpx;
+  height: 56rpx;
+  margin-right: 10rpx;
+}
+.banner-txt{
+  text-align: center;
+}
+.banner-txt text{
+  font-size: 62rpx;
+  letter-spacing: -1rpx;
+  color: #ffffff;
+}
+.banner-txt2{
+  font-size: 19rpx;
+  color: #ffffff;
+  text-align: center;
+}
+/*定位部分*/
+.position-wrap{
+  margin-top: -55rpx;
+  padding: 20rpx 40rpx;
+  box-shadow: 0 15rpx 15rpx rgba(0,0,0,0.2);
+  position: relative;
+  z-index: 2;
+  height: 102rpx;
+  background-image: linear-gradient(94deg, #51b1ff 0%, #3b8de3 100%);
+  border-radius: 51rpx;
+  color: #ffffff;
+  display: flex;
+}
+.position-wrap .top-t{
+
+}
+.position-wrap .bom-t{
+  margin-left: 83rpx;
+  font-size: 22rpx;
+}
+.position-wrap .right{
+  text-align: center;
+}
+.position-wrap .right image{
+  width: 23rpx;
+  height: 32rpx;
+  display: inline-block;
+  vertical-align: top;
+}
+.position-wrap .right view{
+  font-size: 26rpx;
+  margin-top:-16rpx;
+
+}
+.line{
+  width: 1rpx;
+  height: 64rpx;
+  background-color: #5eaeff;
+  margin-left: 38rpx;
+  margin-right: 29rpx;
+}
+/*list 部分*/
+.list-wrap{
+  display: flex;
+  margin-top: 61rpx;
+  flex-wrap: wrap;
+}
+.list-wrap image{
+  width: 91rpx;
+  height: 91rpx;
+}
+.list-wrap .text{
+  font-size: 32rpx;
+  margin-top: 24rpx;
+  color: #222222;
+}
+.list-wrap > view{
+  text-align: center;
+  width: 132rpx;
+  margin-right: 121rpx;
+}
+.list-wrap > view:first-child{
+  margin-bottom: 82rpx;
+}
+.list-wrap > view:nth-child(3n){
+  margin-right: 0rpx;
+}
+/*预约挂号*/
+.btn-wrap{
+  margin-top: 72rpx;
+  width: 691rpx;
+  height: 106rpx;
+  background-color: #ffb400;
+  box-shadow: 0rpx 0rpx 18rpx 0rpx rgba(3, 0, 0, 0.07);
+  border-radius: 8rpx;
+  margin-left: 28rpx;
+  line-height: 72rpx;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.btn-wrap text{
+  font-size: 50rpx;
+}
+.btn-wrap image{
+  width: 69rpx;
+  height: 67rpx;
+  margin-right: 44rpx;
+}
+/*用户*/
+.user-center{
+  /*position: fixed;*/
+  bottom: 73rpx;
+  background-color: #ededed;
+  width: 130rpx;
+  height: 98rpx;
+  right: 0;
+  display: flex;
+  padding: 8rpx;
+  align-items: center;
+  border-radius: 50rpx 0 0 50rpx;
+}
+.user-center image{
+  width: 83rpx;
+  height: 83rpx;
+  border-radius: 50%;
+}

@@ -1,0 +1,28 @@
+/* pages/specialOfferDetail/specialOfferDetail.wxss */
+
+
+.content{
+    padding: 30rpx;
+}
+.tit{
+    font-size: 32rpx;
+    line-height: 52rpx;
+    margin-bottom: 28rpx;
+    color: #222222;
+    text-align: center;
+    font-weight: 600;
+}
+.indent2{
+    text-indent: 2em;
+}
+.txt{
+    font-size: 24rpx;
+    line-height: 40rpx;
+    color: #444444;
+}
+.insert-img{
+    display: block;
+    width: 506rpx;
+    height: 324rpx;
+    margin: 13rpx auto 34rpx;
+}

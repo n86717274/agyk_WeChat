@@ -1,0 +1,59 @@
+<!--pages/mine/mine.wxml-->
+<view class="mine">
+
+  <view class="header">
+    <image src="../../assets/imgs/mine/bg.png" class="bg"></image>
+    <view class="cont">
+      <image src="https://p1.pstatp.com/large/61640000c66f7b2cf064" class="head"></image>
+      <text class="name">木子李</text>
+      <view class="self">个人风采</view>
+    </view>
+  </view>
+  <view class="list">
+      <view class="item">
+        <view class="item-l">
+          <image class="item-icon" src="../../assets/imgs/mine/icon1.png"></image>
+          <text class="item-txt">我的账户</text>
+        </view>
+        <image class="sanjiao" src="../../assets/imgs/mine/sanjiao.png"></image>
+      </view>
+    <view class="item">
+      <view class="item-l">
+        <image class="item-icon" src="../../assets/imgs/mine/icon2.png"></image>
+        <text class="item-txt">我的医生</text>
+      </view>
+      <image class="sanjiao" src="../../assets/imgs/mine/sanjiao.png"></image>
+    </view>
+    <view class="item">
+      <view class="item-l">
+        <image class="item-icon" src="../../assets/imgs/mine/icon3.png"></image>
+        <text class="item-txt">我的关注</text>
+      </view>
+      <image class="sanjiao" src="../../assets/imgs/mine/sanjiao.png"></image>
+    </view>
+    <view class="item">
+      <view class="item-l">
+        <image class="item-icon" src="../../assets/imgs/mine/icon4.png"></image>
+        <text class="item-txt">设置</text>
+      </view>
+      <image class="sanjiao" src="../../assets/imgs/mine/sanjiao.png"></image>
+    </view>
+    <view class="item">
+      <view class="item-l">
+        <image class="item-icon" src="../../assets/imgs/mine/icon5.png"></image>
+        <text class="item-txt">推荐</text>
+      </view>
+      <image class="sanjiao" src="../../assets/imgs/mine/sanjiao.png"></image>
+    </view>
+    <view class="item">
+      <view class="item-l">
+        <image class="item-icon" src="../../assets/imgs/mine/icon6.png"></image>
+        <text class="item-txt">推荐记录</text>
+      </view>
+      <image class="sanjiao" src="../../assets/imgs/mine/sanjiao.png"></image>
+    </view>
+  </view>
+  <view class="logout">
+    退出登录
+  </view>
+</view>
